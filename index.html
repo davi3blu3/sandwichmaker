@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SandwichMaker</title>
+    <meta name="author" content="davi3blu3">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+  </head>
+  <body>
+
+
+  	<div class="row">
+  		<section class="ingredient-group" id="breads">
+        <header>Bread</header>
+			  <label><input type="checkbox" value="white">white</label> 
+			  <label><input type="checkbox" value="wheat">wheat</label>
+			  <label><input type="checkbox" value="rye">rye</label>
+  		</section>
+  		<section class="ingredient-group" id="meats">
+  			<header>Meat</header>
+        <label><input type="checkbox" value="roast beef">roast beef</label>
+  			<label><input type="checkbox" value="ham">ham</label>
+  			<label><input type="checkbox" value="turkey">turkey</label>
+  		</section>
+  		<section class="ingredient-group" id="cheeses">
+  			<header>Cheese</header>
+        <label><input type="checkbox" value="cheddar">cheddar</label>
+  			<label><input type="checkbox" value="provolone">provolone</label>
+  			<label><input type="checkbox" value="pepper jack">pepperjack</label>
+  		</section>
+  	</div>
+  	<div class="row">
+  		<section class="ingredient-group" id="condiments">
+  			<header>Condiments</header>
+        <label><input type="checkbox" value="ketchup">ketchup</label>
+  			<label><input type="checkbox" value="mustard">mustard</label>
+  			<label><input type="checkbox" value="mayo">mayo</label>
+  		</section>
+  		<section class="ingredient-group" id="veggies">
+  			<header>Veggies</header>
+        <label><input type="checkbox" value="lettuce">lettuce</label>
+  			<label><input type="checkbox" value="tomato">tomato</label>
+  			<label><input type="checkbox" value="pickle">pickle</label>
+  		</section>
+  		<div>
+  			<h2>Total Sandwich Price:</h2><span id="DOMPrice">$0.00</span>
+  		</div>
+  	</div>
+  	<div class="finished-order"></div>
+    
+  <script type="text/javascript" src="./javascripts/DOMHandler.js"></script>
+  <script type="text/javascript" src="./javascripts/SandwichMaker.js"></script>
+  <script type="text/javascript" src="./javascripts/bread.js"></script>
+  <script type="text/javascript" src="./javascripts/meat.js"></script>
+  <script type="text/javascript" src="./javascripts/cheese.js"></script>
+  <script type="text/javascript" src="./javascripts/condiment.js"></script>
+  <script type="text/javascript" src="./javascripts/veggie.js"></script>
+  </body>
+</html>

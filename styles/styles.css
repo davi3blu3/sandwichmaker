@@ -1,0 +1,20 @@
+.ingredient-group {
+	display: inline-block;
+	width: 250px;
+	border: 1px solid black;
+	margin: 20px;
+	padding-bottom: 10px;
+}
+
+header {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px 15px;
+	background-color: #cde;
+	height: 100%;
+}
+
+label {
+	display: block;
+	padding: 5px;
+}
